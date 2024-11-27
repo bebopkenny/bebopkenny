@@ -16,3 +16,6 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bebopkenny&show_icons=true&locale=en&layout=compact" alt="bebopkenny" /></p>
 
+# 🔥 Streak Stats<br/>
+<!-- Streaks from https://github.com/Ileriayo/markdown-badges -->
+[![GitHub Streak](https://streak-stats.demolab.com?user=bebopkenny&theme=highcontrast)](https://git.io/streak-stats)
