@@ -1,5 +1,5 @@
 # 💫 About Me:
-👨‍💻 Aspiring Software Engineer exploring web dev, mobile dev, and AI with a passion for learning<br>📚 Studying Computer Science at California State University, Fullerton<br>🌟 Board Officer for the Association of Computing Machinery at CSUF<br>🚀 Passionate about web development, and open-source projects<br>💻 Expanding my skills in web development, deepening my expertise in React.js, and exploring other web development tools
+👨‍💻 Aspiring Software Engineer exploring web dev, mobile dev, and AI with a passion for learning<br>📚 Studying Computer Science at California State University, Fullerton<br>🌟 Board Officer for the Association of Computing Machinery at CSUF<br>🚀 Passionate about web development, and open-source projects<br>⚡️ Expanding my skills in web development, deepening my expertise in React.js, and exploring other web development tools
 
 
 # 💻 Tech Stack:
