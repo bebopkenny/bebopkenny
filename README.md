@@ -8,8 +8,10 @@
 
 **Note:** Links will open in a new tab if you hold **Ctrl** (Windows/Linux) or **Cmd** (Mac) while clicking.
 
+- [Three.js Portfolio](https://kennygarcia.net) - Interactive 3D portfolio showcasing projects and skills using React.js, Three.js, and Tailwind CSS. [GitHub Repo](https://github.com/bebopkenny/Three.js-Portfolio)
 - [Amazon Clone](https://amazon.kennygarcia.net) - E-commerce website with product listings, shopping cart, and order tracking. [GitHub Repo](https://github.com/bebopkenny/Amazon-Project)
 - [YouTube Clone](https://youtube.kennygarcia.net) - Responsive homepage with interactive navigation, sidebar links, and video previews. [GitHub Repo](https://github.com/bebopkenny/YouTube)
+
 
 
 # 📊 GitHub Stats:
