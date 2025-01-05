@@ -6,6 +6,7 @@
 
 # ✨ Project Showcase
 - [Amazon Clone](https://amazon.kennygarcia.net) - E-commerce website with product listings, shopping cart, and order tracking. [GitHub Repo](https://github.com/bebopkenny/Amazon-Project)
+- [YouTube Clone](https://youtube.kennygarcia.net) - Responsive homepage with interactive navigation, sidebar links, and video previews. [GitHub Repo](https://github.com/bebopkenny/YouTube)
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=bebopkenny&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true)<br/>
