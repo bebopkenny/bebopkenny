@@ -6,12 +6,13 @@
 
 ## ✨ Project Showcase
 
-- [Three.js Portfolio](https://kennygarcia.net) - Interactive 3D portfolio showcasing projects and skills using React.js, Three.js, and Tailwind CSS. [GitHub Repo](https://github.com/bebopkenny/Three.js-Portfolio)
+- [Three.js Portfolio](https://kennygarcia.net) - Interactive 3D portfolio showcasing projects and skills using React.js, Three.js, and Tailwind CSS. [Repo](https://github.com/bebopkenny/Three.js-Portfolio)
 - [AI Snake Game](https://github.com/bebopkenny/AI-Snake-Pygame) - Snake game powered by an AI that learns to play using reinforcement learning with PyTorch.
-- [Sorting Visualizer](https://vimeo.com/manage/videos/1044574041) – Real-time algorithm visualizer with sleek animations and dynamic controls. [GitHub Repo](https://github.com/bebopkenny/Python-Algo-Visualizer)
-- Discord bot - Discord bot using the Canvas API to provide real-time updates on schedules and assignments. GitHub Repo
-- [Amazon Clone](https://amazon.kennygarcia.net) - E-commerce website with product listings, shopping cart, and order tracking. [GitHub Repo](https://github.com/bebopkenny/Amazon-Project)
-- [YouTube Clone](https://youtube.kennygarcia.net) - Responsive homepage with interactive navigation, sidebar links, and video previews. [GitHub Repo](https://github.com/bebopkenny/YouTube)
+- [Sorting Visualizer](https://vimeo.com/manage/videos/1044574041) – Real-time algorithm visualizer with sleek animations and dynamic controls. [Repo](https://github.com/bebopkenny/Python-Algo-Visualizer)
+-  Color Detection – Real-time color detection using OpenCV and AI vision [Repo](https://github.com/bebopkenny/Color-Detection)
+- Discord bot - Discord bot using the Canvas API to provide real-time updates on schedules and assignments. [Repo]
+- [Amazon Clone](https://amazon.kennygarcia.net) - E-commerce website with product listings, shopping cart, and order tracking. [Repo](https://github.com/bebopkenny/Amazon-Project)
+- [YouTube Clone](https://youtube.kennygarcia.net) - Responsive homepage with interactive navigation, sidebar links, and video previews. [Repo](https://github.com/bebopkenny/YouTube)
 
 
 
