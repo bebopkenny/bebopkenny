@@ -6,10 +6,11 @@
 
 ## ✨ Project Showcase
 - [Three.js Portfolio](https://github.com/bebopkenny/Three.js-Portfolio) - Interactive 3D portfolio showcasing projects and skills using React.js, Three.js, and Tailwind CSS
+- [Semantic Book Recommender]() – AI-driven book recommendations using LangChain, OpenAI embeddings, and Gradio
 - [AI Snake Game](https://github.com/bebopkenny/AI-Snake-Pygame) - Snake game powered by an AI that learns to play using reinforcement learning with PyTorch
 - [Sorting Visualizer](https://github.com/bebopkenny/Python-Algo-Visualizer) – Real-time algorithm visualizer with sleek animations and dynamic controls
 - [Color Detection](https://github.com/bebopkenny/Color-Detection) – Real-time color detection using OpenCV and AI vision
-- Discord bot - Discord bot using the Canvas API to provide real-time updates on schedules and assignments
+- [Discord bot]() - Discord bot using the Canvas API to provide real-time updates on schedules and assignments
 - [Amazon Clone](https://github.com/bebopkenny/Amazon-Project) - E-commerce website with product listings, shopping cart, and order tracking
 - [YouTube Clone](https://github.com/bebopkenny/YouTube) - Responsive homepage with interactive navigation, sidebar links, and video previews
 
