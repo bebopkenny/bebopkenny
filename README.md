@@ -6,9 +6,9 @@
 
 ## ✨ Project Showcase
 - [Three.js Portfolio](https://github.com/bebopkenny/Three.js-Portfolio) – Interactive 3D portfolio showcasing projects and skills using React.js, Three.js, and Tailwind CSS
-- [Semantic Book Recommender](https://github.com/bebopkenny/Semantic-Book-Recommender) – AI-driven book recommendations using LangChain, OpenAI embeddings, and Gradio
+- [GenreGenis](https://github.com/bebopkenny/Semantic-Book-Recommender) – AI-driven book recommendations using LangChain, OpenAI embeddings, and Gradio
 - [Sumz](https://github.com/bebopkenny/AI-Semantic-Summarization) – AI-powered React app that creates concise article summaries with Rapid API
-- [AI Snake Game](https://github.com/bebopkenny/AI-Snake-Pygame) - Snake game powered by an AI that learns to play using reinforcement learning with PyTorch
+- [NeuralSnake](https://github.com/bebopkenny/AI-Snake-Pygame) - Snake game powered by an AI that learns to play using reinforcement learning with PyTorch
 - [Pathfinding Visualizer](https://github.com/bebopkenny/Pathfinding-Visualizer-Project) - React and TypeScript tool for visualizing Dijkstra’s and A* algorithms with interactive grids and animations
 - [Sorting Visualizer](https://github.com/bebopkenny/Python-Algo-Visualizer) – Real-time algorithm visualizer with sleek animations and dynamic controls
 - [Color Detection](https://github.com/bebopkenny/Color-Detection) – Real-time color detection using OpenCV and AI vision
