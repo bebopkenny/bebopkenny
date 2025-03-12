@@ -1,3 +1,5 @@
+![GIF](https://64.media.tumblr.com/f7cd096f108d83c988169096361972fc/tumblr_otjfqziQrH1qze3hdo1_500.gifv)
+
 # 💫 About Me:
 👨‍💻 Software Engineer exploring web dev, mobile dev, and AI with a drive for learning<br>📚 Studying Computer Science at California State University, Fullerton<br>🌟 Board Officer for the [Association of Computing Machinery at CSUF](https://acmcsuf.com/teams)<br>🚀 Check out my [resume](https://github.com/bebopkenny/Kenny-Garcia-Resume/blob/main/KennyGarcia_Resume.pdf)<br>⚡️ [Portfolio](https://www.kennygarcia.net/)
 
