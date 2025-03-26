@@ -1,9 +1,8 @@
-# Welcome! ![image](https://github.com/user-attachments/assets/4d250897-dfa4-482f-8dd1-fab1a6b01c7c)
+# Welcome! 
 
  
 
-![image](https://github.com/user-attachments/assets/c4346087-8fbc-448f-8595-e55dbe46622f)
-
+![GO](https://media.discordapp.net/attachments/1299155448959598595/1354328079786311751/Go_8001611039611515.gif?ex=67e4e3d0&is=67e39250&hm=a3817fd89556d25155fa11fb7fcf5e55ccca4e6cba69fd733f95e795753f50bc&=&width=1258&height=566)
 
 # 💫 About Me:
 👨‍💻 Software Engineer exploring web dev, mobile dev, and AI with a drive for learning<br>📚 Studying Computer Science at California State University, Fullerton<br>🌟 Board Officer for the [Association of Computing Machinery at CSUF](https://acmcsuf.com/teams)<br>🚀 Click [here](https://github.com/bebopkenny/Kenny-Garcia-Resume/blob/main/KennyGarcia_Resume.pdf) to see my resume<br>⚡️ Check out my [portfolio](https://www.kennygarcia.net/)
