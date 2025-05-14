@@ -19,14 +19,11 @@
 
 ## ✨ Project Showcase
 - [GenreGenis](https://github.com/bebopkenny/Semantic-Book-Recommender) – AI-driven book recommendations using LangChain, OpenAI embeddings, and Gradio
-- [Sumz](https://github.com/bebopkenny/AI-Semantic-Summarization) – AI-powered React app that creates concise article summaries with Rapid API
 - [NeuralSnake](https://github.com/bebopkenny/AI-Snake-Pygame) - Snake game powered by an AI that learns to play using reinforcement learning with PyTorch
 - [Pathfinding Visualizer](https://github.com/bebopkenny/Pathfinding-Visualizer-Project) - React and TypeScript tool for visualizing Dijkstra’s and A* algorithms with interactive grids and animations
 - [Sorting Visualizer](https://github.com/bebopkenny/Python-Algo-Visualizer) – Real-time algorithm visualizer with sleek animations and dynamic controls
 - [Color Detection](https://github.com/bebopkenny/Color-Detection) – Real-time color detection using OpenCV and AI vision
 - [Discord bot](https://github.com/bebopkenny/Canvas-Bot-Python) - Discord bot using the Canvas API to provide real-time updates on schedules and assignments
-- [Amazon Clone](https://github.com/bebopkenny/Amazon-Project) - E-commerce website with product listings, shopping cart, and order tracking
-- [YouTube Clone](https://github.com/bebopkenny/YouTube) - Responsive homepage with interactive navigation, sidebar links, and video previews
 
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=bebopkenny&theme=github_dark_dimmed&hide_border=false)<br/>
