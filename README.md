@@ -19,7 +19,7 @@
 ## ✨ Project Showcase
 - [GenreGenis](https://github.com/bebopkenny/Semantic-Book-Recommender) – AI-driven book recommendations using LangChain, OpenAI embeddings, and Gradio
 - [NeuralSnake](https://github.com/bebopkenny/AI-Snake-Pygame) - Snake game powered by an AI that learns to play using reinforcement learning with PyTorch
-- [Pathfinding Visualizer](https://github.com/bebopkenny/Pathfinding-Visualizer-Project) - React and TypeScript tool for visualizing Dijkstra’s and A* algorithms with interactive grids and animations
+- [Pathfinding Visualizer](https://github.com/bebopkenny/Pathfinding-Visualizer-Project) - React and TypeScript tool for visualizing Dijkstra’s and A* algorithms with interactive grids
 - [Sorting Visualizer](https://github.com/bebopkenny/Python-Algo-Visualizer) – Real-time algorithm visualizer with sleek animations and dynamic controls
 - [Color Detection](https://github.com/bebopkenny/Color-Detection) – Real-time color detection using OpenCV and AI vision
 - [Discord bot](https://github.com/bebopkenny/Canvas-Bot-Python) - Discord bot using the Canvas API to provide real-time updates on schedules and assignments
