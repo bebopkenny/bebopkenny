@@ -3,7 +3,7 @@
 # 💫 About Me:
 👨‍💻 Software Engineer exploring web dev, mobile dev, and AI with a drive for learning
 <br>📚 Studying Computer Science at California State University, Fullerton
-<br>🌟 Board Officer for the [Association of Computing Machinery (ACM) at CSUF](https://acmcsuf.com/teams)
+<br>🌟 Board Officer for the [Association of Computing Machinery (ACM) at CSUF](https://acmcsuf.com/)
 <!-- <br>🚀 Click [here](https://github.com/bebopkenny/Kenny-Garcia-Resume/blob/main/KennyGarcia_Resume.pdf) to see my resume -->
 <!-- <br>⚡️ Check out my [portfolio](https://www.kennygarcia.net/) -->
 <br> 🌐 Feel free to connect with me! 
