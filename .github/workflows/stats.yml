@@ -1,0 +1,30 @@
+name: Stats
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [stats/generate.py, .github/workflows/stats.yml]
+
+permissions:
+  contents: write
+
+concurrency: stats
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 stats/generate.py
+        env:
+          # STATS_TOKEN (personal token) adds private repos; without it only public data is counted.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
+      - name: Commit if changed
+        run: |
+          git add stats
+          git diff --cached --quiet && exit 0
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update stats"
+          git push
