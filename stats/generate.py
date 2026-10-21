@@ -4,6 +4,7 @@
 Needs GITHUB_TOKEN. A personal token (read:user, repo) also counts private repos.
 """
 import json
+import math
 import os
 import sys
 import urllib.request
@@ -12,7 +13,7 @@ from html import escape
 
 LOGIN = os.environ.get("GITHUB_LOGIN", "bebopkenny")
 OUT = os.path.dirname(os.path.abspath(__file__))
-TOP_LANGS = 6
+TOP_LANGS = 5  # the rest are grouped as "Other"
 
 CALENDAR_Q = """query($l:String!,$f:DateTime!,$t:DateTime!){user(login:$l){
 contributionsCollection(from:$f,to:$t){contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"""
@@ -85,9 +86,15 @@ def top_languages():
         if not repos["pageInfo"]["hasNextPage"]:
             break
         cursor = repos["pageInfo"]["endCursor"]
-    top = sorted(sizes.items(), key=lambda kv: -kv[1])[:TOP_LANGS]
-    total = sum(size for _, size in top) or 1
-    return [(name, colors[name], 100 * size / total) for name, size in top]
+    return share_of(sorted(sizes.items(), key=lambda kv: -kv[1]), colors)
+
+
+def share_of(ranked, colors):
+    """Top languages plus an "Other" slice, as (name, color, percent of all code)."""
+    total = sum(size for _, size in ranked) or 1
+    langs = [(name, colors[name], 100 * size / total) for name, size in ranked[:TOP_LANGS]]
+    rest = sum(size for _, size in ranked[TOP_LANGS:])
+    return langs + [("Other", "#8b949e", 100 * rest / total)] if rest else langs
 
 
 def fmt(iso):
@@ -120,19 +127,30 @@ def streak_svg(days):
 
 
 def langs_svg(langs):
-    rows = (len(langs) + 1) // 2
-    body = ('<text x="25" y="35" class="label accent">Most Used Languages</text>'
-            '<clipPath id="bar"><rect x="25" y="52" width="250" height="8" rx="4"/></clipPath><g clip-path="url(#bar)">')
-    x = 25
+    """Donut chart with a legend; the top language's share sits in the hole."""
+    cx, cy, r = 110, 112, 52
+    circ = 2 * math.pi * r
+    body = (f'<text x="25" y="35" class="label accent">Most Used Languages</text>'
+            f'<g transform="rotate(-90 {cx} {cy})" fill="none" stroke-width="18">')
+    start = 0
     for _, color, pct in langs:
-        body += f'<rect x="{x:.2f}" y="52" width="{2.5 * pct + 0.5:.2f}" height="8" fill="{color}"/>'  # +0.5 hides seams
-        x += 2.5 * pct
+        length = circ * pct / 100
+        # 2px gap between slices; tiny slices keep at least 1px
+        body += (f'<circle cx="{cx}" cy="{cy}" r="{r}" stroke="{color}" stroke-dashoffset="{-start:.2f}" '
+                 f'stroke-dasharray="{max(length - 2, 1):.2f} {circ:.2f}"/>')
+        start += length
     body += "</g>"
+    if langs:
+        name, _, pct = langs[0]
+        body += (f'<text x="{cx}" y="{cy + 4}" text-anchor="middle" class="big">{pct:.0f}%</text>'
+                 f'<text x="{cx}" y="{cy + 22}" text-anchor="middle">{escape(name)}</text>')
+    top = cy - 11 * (len(langs) - 1)  # legend is centered on the donut
     for i, (name, color, pct) in enumerate(langs):
-        cx, cy = 25 + 140 * (i % 2), 85 + 22 * (i // 2)
-        body += (f'<circle cx="{cx + 5}" cy="{cy - 4}" r="5" fill="{color}"/>'
-                 f'<text x="{cx + 16}" y="{cy}"><tspan style="fill:var(--text)">{escape(name)}</tspan> {pct:.1f}%</text>')
-    return card(300, 70 + 22 * rows + 10, body)
+        y = top + 22 * i
+        body += (f'<circle cx="235" cy="{y - 4}" r="5" fill="{color}"/>'
+                 f'<text x="250" y="{y}" class="label">{escape(name)}</text>'
+                 f'<text x="470" y="{y}" text-anchor="end">{pct:.1f}%</text>')
+    return card(495, 195, body)
 
 
 def self_check():
@@ -141,6 +159,9 @@ def self_check():
     assert streaks(d([1, 1, 1, 0, 1, 0])) == ([1, "2026-01-05", "2026-01-05"], [3, "2026-01-01", "2026-01-03"])
     assert streaks(d([1, 1, 0, 0])) == ([0, None, None], [2, "2026-01-01", "2026-01-02"])
     assert streaks(d([0, 0])) == ([0, None, None], [0, None, None])
+    ranked = [(f"L{i}", 10) for i in range(7)] + [("L7", 30)]
+    langs = share_of(sorted(ranked, key=lambda kv: -kv[1]), {n: "#000" for n, _ in ranked})
+    assert [n for n, _, _ in langs] == ["L7", "L0", "L1", "L2", "L3", "Other"] and abs(sum(p for *_, p in langs) - 100) < 1e-9
 
 
 if __name__ == "__main__":
